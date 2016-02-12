@@ -1,5 +1,32 @@
+body {
+  background-color: #FAEBD7;
+}
+
+.navbar {
+  background-color: black;
+  font-family: arial;
+}
+
+.jumbotron{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bannerbackground.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: #FAEBD7;
+}
+
+.celebrity-heads img{
+  border-radius: 50%;
+  height: 100px;
+  width: auto;
+}
+
+
+.gameboard {
+}
+
 td {
 border: 1px solid black;
-height: 50px;
-width: 50px;
+height: 200px;
+width: 200px;
+border-image: url("../images/dollarborder.png") 30 round;
 }
