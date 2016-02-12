@@ -20,13 +20,41 @@ body {
   width: auto;
 }
 
+.celebrity-heads img:hover {
+   transform: scale(1.2);
+}
+
+.letsplay {
+  text-align: center;
+}
+
+.btn-default {
+  width:400px;
+  margin: auto 0;
+  text-align: center;
+  background-image: url("../images/goldcoins.jpg");
+  border: 2px solid black;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
 
 .gameboard {
+  background-image: url("../images/tryharder.jpg");
+  background-size: 600px 600px;
+  background-repeat: no-repeat;
 }
 
 td {
-border: 1px solid black;
+border: 3px solid black;
 height: 200px;
 width: 200px;
-border-image: url("../images/dollarborder.png") 30 round;
+/*background: gray;*/
+
+}
+
+td:hover {
+  background-image: url("../images/dolladollabills.jpg");
+  height: 200px;
+  width: 200px;
 }
