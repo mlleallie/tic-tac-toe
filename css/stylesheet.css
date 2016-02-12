@@ -28,7 +28,7 @@ body {
   text-align: center;
 }
 
-.btn-default {
+.gold {
   width:400px;
   margin: auto 0;
   text-align: center;
@@ -43,6 +43,7 @@ body {
   background-image: url("../images/tryharder.jpg");
   background-size: 600px 600px;
   background-repeat: no-repeat;
+  margin: 20px;
 }
 
 td {
@@ -58,3 +59,4 @@ td:hover {
   height: 200px;
   width: 200px;
 }
+
