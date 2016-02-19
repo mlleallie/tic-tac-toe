@@ -3,7 +3,7 @@ $(function(){
 
 
   $('.gold').click(function() {
-    alert('Let the game begin. Taylor Swift, make your move.');
+    alert('Let the game begin. Player 1, make your move.');
 
     });
 
@@ -38,7 +38,7 @@ $(function(){
     });
 
    $('.letsplayagain').click(function() {
-    alert('Rematch!');
+    alert('Rematch! If you went first last time, go second this turn.');
     $('td').removeClass('beyonce');
     $('td').removeClass('taylor');
     });
