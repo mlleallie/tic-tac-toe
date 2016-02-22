@@ -10,9 +10,9 @@ $(function(){
   $('.gameSquare').click(function(){
     clickCount += 1;
     console.log(clickCount);
-      if ((clickCount % 2) == 0) {
+      if (((clickCount % 2) == 0) && !$('.gameSquare').hasClass('taylor')){
         $(this).addClass('beyonce')
-      } else {
+      } else if ((clickCount % 2) !== 0 && !$('gameSquare').hasClass('beyonce')){
         $(this).addClass('taylor')
       };
 
